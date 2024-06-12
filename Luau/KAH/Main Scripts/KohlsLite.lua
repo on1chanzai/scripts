@@ -317,14 +317,6 @@ antikill = {}
 permusers = {} -- users that use perm will be placed here
 personsusers = {} -- users that use persons will be placed here
 
--- Auto stuff relating to users
-rkick_on_sight = {} -- rocket kick player when they join ONLY WORKS WITH ONE PLAYER
-crash_on_sight = {"aliihsan12345Bloxy"} -- crash server when player joins
-mkick_on_sight = {"He4rt_4","hellokitty2kute"} -- kick player with pm spam when they join ONLY WORKS WITH ONE PLAYER
-suser_on_sight = {} -- slow a user when they join with car gear ONLY WORKS WITH ONE PLAYER
-furry_on_sight = {"jhjssikeksms"} -- nine jay n
-gb_on_sight = {}
-
 -- Variables for moving
 local movestatus = false
 Kohls = workspace.Terrain:WaitForChild("_Game")
@@ -946,7 +938,7 @@ local flykeybind = "f" -- fly keybind
 -- local crashkey = "e" 
 
 -- Auto things when people join
-local autogpcheck = true -- automatically check for player's gamepasses
+local autogpcheck = false -- automatically check for player's gamepasses
 local autogb = false
 
 -- Clicking
@@ -996,8 +988,8 @@ local PingCsystem = true
 local AntiLogs = false
 
 -- Noob detector and welcome/leave message
-local noobdetect = true
-local welcomemsg = true
+local noobdetect = false
+local welcomemsg = false
 
 -- local permpassid = 66254 or 64354 -> NBC, BC
 -- local personpassid = 35748 or 37127 --> NBC, BC
